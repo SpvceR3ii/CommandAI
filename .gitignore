@@ -1,0 +1,46 @@
+# Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.appx
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Ignore user secrets
+secrets.json
+
+# Ignore Rider / JetBrains specific files
+.idea/
+*.sln.iml
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# Ignore compiled code
+*.csproj.user
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Ignore debug/release folders
+Debug/
+Release/
+
+# Ignore Publish outputs
+publish/
